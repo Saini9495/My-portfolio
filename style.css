@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff9f9;
+  color: #111;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: #080808;
+}
+
+.logo {
+  color: #f6eded;
+}
+
+nav a {
+  color: #fcf9f9;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: rgb(255, 255, 255);
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.hero span {
+  font-weight: bold;
+}
+
+.section {
+  background: rgb(255, 255, 255);
+  padding: 60px 10%;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.skill {
+  border: 1px solid #e12626;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.skill i {
+  display: block;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.skill:hover {
+  background: #b90808;
+  color: #141414;
+}
+
+.education-box {
+  border-left: 4px solid #d60e0e;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  background-color: rgb(88, 92, 86);
+  text-align: center;
+}
+
+.socials {
+  margin-top: 15px;
+}
+
+.socials a {
+  color: #000000;
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+.socials a:hover {
+  color: #d00000;
+}
+
+footer {
+  background: #030303;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
